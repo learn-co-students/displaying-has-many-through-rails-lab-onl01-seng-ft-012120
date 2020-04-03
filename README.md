@@ -8,7 +8,7 @@
 4. Identify the join model in a has many through.
 
 ## Overview
-
+ 
 The poor doctors at Seattle Grace Hospital are so overworked that they're having trouble keeping track of their patients' appointments! Let's help them (and practice our associations) by building some associations and displaying the data.
 
 ![greys-anatomy](http://57.media.tumblr.com/cbcd8f29790e720e4cea60f44cb2c6b9/tumblr_mrbut3kX1g1r6kab2o1_500.gif)
