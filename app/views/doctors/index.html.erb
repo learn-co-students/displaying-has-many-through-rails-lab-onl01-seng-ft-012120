@@ -1,0 +1,7 @@
+<%@docs.each do |d|%>
+<h1>Doctor: <%= link_to d.name, p%></h1>
+        <%d.patients.each do |p|%>
+        <h2>Patient: <%= link_to p.name, p %></h2>
+        <%end%>
+
+<%end%>
