@@ -10,19 +10,5 @@ describe 'Doctor' do
     @appointment2 = Appointment.create(appointment_datetime: DateTime.new(2016, 10, 1), doctor: @mcdreamy, patient: @patient2  )
   end
 
-  it 'has a name' do
-    expect(@mcdreamy.name).to eq("Derek Shepherd")
-  end
 
-  it 'has a department' do
-    expect(@mcdreamy.department).to eq("Neurosurgery")
-  end
-
-  it 'has many appointments' do
-    expect(@mcdreamy.appointments).to eq([@appointment1, @appointment2])
-  end
-
-  it 'has many patients, through appointments' do
-    expect(@mcdreamy.patients).to eq([@patient1, @patient2])
-  end
 end
